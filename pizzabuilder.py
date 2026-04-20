@@ -15,7 +15,6 @@ def main(page: ft.Page):
  
     pizzaBaseImage = ft.Image(src="images/masadepizza.png", width=400, height=400)
  
-    # 🔥 Ajustados para que sí se vean
     vegetalesBaseImage = ft.Image(src="images/vegetales.png", width=280, height=280, visible=False, left=60, top=60)
     pepperoniBaseImage = ft.Image(src="images/pepperoni.png", width=280, height=280, visible=False, left=60, top=60)
     hongosBaseImage = ft.Image(src="images/hongos.png", width=280, height=280, visible=False, left=60, top=60)
